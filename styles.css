@@ -121,8 +121,8 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    max-width: 1440px;
+    gap: 20px;
+    max-width: 2000px;
     margin: 0 auto;
   }
   
