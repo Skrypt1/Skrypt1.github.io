@@ -1,3 +1,8 @@
+* {
+  box-sizing: box;
+}
+
+
 /* Reset some default styles */
 body, h1 {
     margin: 0;
@@ -8,13 +13,13 @@ body, h1 {
 
 body {
     font-family: 'Courgette', cursive;
-    background-color: #f0f0dc;
+    background-color: #181510;
     font-size: 28px;
     margin: auto;
 }
 
 h1 {
-    color: #393053;
+    color: #A08C5B;
     text-align: center;
     font-size: 50px;
 }
@@ -22,18 +27,18 @@ h1 {
 .header {
     padding: 1%;
     text-align: center;
-    background-color: #DFCAA0;
+    background-color: #A08C5B;
     color: white;
     font-size: 30px;
 }
 
 p {
-    color: #635985;
+    color: #A08C5B;
     text-align: center;
 }
 
 .headerp {
-    color: #FFFDE7;
+    color: #A08C5B;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -49,7 +54,7 @@ p {
 /* Style the header with a grey background and some padding */
 .header {
     overflow: hidden;
-    background-color: #c6c7aa;
+    background-color: #A08C5B;
     padding: 20px 10px;
   }
   
@@ -74,13 +79,13 @@ p {
   /* Change the background color on mouse-over */
   .header a:hover {
     background-color: #332c2c;
-    color: black;
+    color: #E9DBBD;
   }
   
   /* Style the active/current link*/
   .header a.active {
-    background-color: rgb(107, 99, 90);
-    color: white;
+    background-color: #181510;
+    color: #E9DBBD;
   }
   
   /* Float the link section to the right */
@@ -111,22 +116,21 @@ p {
 
   /* Style the gallery */
   div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1440px;
+    margin: 0 auto;
   }
   
   div.gallery img {
     width: 100%;
-    height: 100%;
+    height: 300px;
+    max-width: 370px;
+    object-fit: cover;
+    border-radius: 10px;
   }
   
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
