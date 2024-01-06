@@ -3,4 +3,7 @@
 // For example:
 // alert("Hello from JavaScript!");
 
-alert("Hello from JavaScript!");
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    }

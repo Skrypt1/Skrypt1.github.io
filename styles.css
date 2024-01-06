@@ -9,11 +9,15 @@ body, h1 {
     padding: 0;
 }
 
+.LvD {
+  background-color: #070605;
+  color: white;
+}
 /* Add your styles here */
 
 body {
     font-family: 'Courgette', cursive;
-    background-color: #181510;
+    background-color: #BFB29E;
     font-size: 28px;
     margin: auto;
 }
@@ -49,6 +53,11 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+}
+
+.dark-mode {
+  background-color: #070605;
+  color: #ffffff;
 }
 
 /* Style the header with a grey background and some padding */
